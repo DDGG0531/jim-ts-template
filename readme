@@ -1,0 +1,6 @@
+1. 配置tsconfig.json,撰寫esm語法,編譯時會自動轉換成cjs語法
+2. 使用husky 在commit之前用prettier格式化代碼
+3. 配置vitest, 檢驗邏輯
+4. 使用tsx取代ts-node,可以不透過編譯就執行ts
+5. 配置docker,可以直接上雲開出一台webserver
+6. eslint有設定,但須配合編輯器做即時檢查
